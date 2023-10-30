@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiTankkaus.MainPage">
+
+    <TabbedPage.Resources>
+        <StyleSheet Source="Resources/Styles/Style.css" />
+    </TabbedPage.Resources>
+
+    <ContentPage Title="Tankkaus">
+        <StackLayout>
+            <Label x:Name="Tankkaus" FontSize="30" Margin="30,30,30,30" />
+            <Button x:Name="Nappi" Clicked="Nappi_Clicked" Text="say hello" Padding="30" />
+
+        </StackLayout>
+    </ContentPage>
+
+</TabbedPage>
